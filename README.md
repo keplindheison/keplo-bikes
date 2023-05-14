@@ -5,7 +5,6 @@ Repositório destinado ao primeiro projeto do curso [Formação Engenharia de Da
 ### Descrição do projeto
 Sistema de banco de dados de uma loja de bicicletas que roda no banco de dados [PostgreSQL](https://www.postgresql.org/) em uma instância do [EC2](https://aws.amazon.com/pt/ec2/?trk=273714db-4e14-42ba-be75-e3e36c4bc786&sc_channel=ps&ef_id=CjwKCAjwx_eiBhBGEiwA15gLN0FldiPzmUbYiG9yqpGB4vVDQMKOC3W0VjoQx3qbP_YwaX_GRZZurhoCmSQQAvD_BwE:G:s&s_kwcid=AL!4422!3!589890540382!e!!g!!ec2!16393914376!135045745338) da [AWS](https://aws.amazon.com/).
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Requerimentos:
 <img  aling="center"  alt="amazon-web-services"  width="40"  height="40"  src="https://img.icons8.com/color/48/amazon-web-services.png"  />
@@ -118,4 +117,4 @@ Iniciar a execução dos scripts 1 até 6 (rodar um por vez)
 \i /var/lib/postgresql/relacional/keplo-bikes/6.inserindoVenda.sql
 ```
 
-Agora é só fazer suas consultas sobre os dados que injetamos no banco de dados.
+Agora é só fazer suas consultas sobre os dados, alguns exemplos de consultas estão no script "7.ConsultasSQL.sql"
